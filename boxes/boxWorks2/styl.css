@@ -1,0 +1,30 @@
+.border{
+    border: 1px black solid;
+
+}
+
+
+.parent{
+    width: 500px;
+    height: 200px;
+    
+}
+
+
+
+.child{
+    width: 150px;
+    height: 100px;
+}
+.bg-info{
+    background-color: green;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.pink-box{
+    background-color: pink;
+}
+.bg-sucess{
+    background-color: lightgreen;
+}

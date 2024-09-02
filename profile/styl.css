@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(107, 224, 224);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    width: 55%;
+    min-height:100px;
+    background-color: rgb(167, 236, 233);
+    border: 1px solid rgb(166, 241, 241);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.parent > .side{
+    width: 20%;
+    min-height: 100px;
+    
+    
+    
+}
+.profile-pic> img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 30px;
+    
+    
+    
+}
+.parent > .profile-details{
+    width: 70%;
+    min-height: 500px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    padding: 25px;
+
+
+
+}
+.profile-details > .section{
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 55%;
+}
+/* .parent > .footer{
+    display: flex;
+    justify-content: space-between; */
+/* }  */
+.footer-button > button{
+    height: 15px;
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+
+    
+}
+.footer-button>.color{
+    background-color: black;
+    color: white;
+    
+}
+
+.footer > .bt-text{
+    text-align: center;
+}
+
+
+/* .main > p{
+
+    line-height: 30px;
+    text-align: justify;
+    font-size: large;
+
+} */
+.header > .text {
+    width: 20%;
+    line-height: 2px;
+}
+
+
+
+
